@@ -1,0 +1,106 @@
+.header {
+  max-width: 1920px;
+  min-height: 1000px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: #f5faff;
+  position: relative;
+
+  background-image: url("../../_images/Ellips.png");
+  background-repeat: no-repeat;
+  background-position: 1000px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  margin-left: 330px;
+  margin-right: 330px;
+
+  position: relative;
+  display: flex;
+}
+
+.background {
+  width: 600px;
+  height: 600px;
+
+  border-radius: 50%;
+
+  background-image: url("../../_images/feesh.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  left: 1200px;
+  top: 250px;
+
+  box-shadow: 0px 0px 10px 5px #f5faff;
+}
+
+.content {
+  padding-left: 367px;
+  padding-top: 296px;
+}
+
+.title {
+  margin: 0;
+
+  max-width: 596px;
+
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #020202;
+}
+
+.text__color {
+  color: #64d270;
+}
+
+.text {
+  margin: 0;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #020202;
+}
+
+.form {
+  padding-top: 42px;
+  max-width: 500px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.button {
+  width: 280px;
+  height: 60px;
+
+  border: none;
+  border-radius: 25px;
+
+  background-color: #64d270;
+
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #f5faff;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 1px #64d270;
+}
+
+.text__size {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #64d270;
+}
