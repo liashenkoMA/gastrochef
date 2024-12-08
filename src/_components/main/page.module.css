@@ -1,2 +1,9 @@
-.main {}
+.main {
+  max-width: 1920px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: #f5faff;
+}
 

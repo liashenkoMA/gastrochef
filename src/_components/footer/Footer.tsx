@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
-        <div className={styles.menu}>
+        <nav className={styles.menu}>
           <ul className={styles.lists}>
             <li className={styles.list}>
               <Link href="/" className={styles.link}>
@@ -40,7 +40,7 @@ export default function Page() {
               </Link>
             </li>
           </ul>
-        </div>
+        </nav>
 
         <div className={styles.logo}>
           <Image
