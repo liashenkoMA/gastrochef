@@ -9,7 +9,7 @@ import night from "@/_images/night.png";
 import car from "@/_images/car.png";
 import clock from "@/_images/clock.png";
 
-export default function Page() {
+export default function Description() {
   return (
     <section className={styles.description}>
       <div className={styles.lists}>

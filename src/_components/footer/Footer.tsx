@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import logo from "@/_images/logo.png";
 
-export default function Page() {
+export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
